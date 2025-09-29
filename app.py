@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+DATA_DIR = Path(__file__).resolve().parent / "data"
 DATA_FILE = DATA_DIR / "clean_data_after_eda.csv"
 
 @st.cache_data
